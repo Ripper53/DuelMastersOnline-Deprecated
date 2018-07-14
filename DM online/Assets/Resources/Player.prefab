@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1612118132881404}
+  m_IsPrefabParent: 1
+--- !u!1 &1612118132881404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4718030403667576}
+  - component: {fileID: 114508617822898880}
+  - component: {fileID: 114989372852919388}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4718030403667576
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612118132881404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114508617822898880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612118132881404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 59
+    i1: 14
+    i2: 23
+    i3: 5
+    i4: 95
+    i5: 1
+    i6: 178
+    i7: 100
+    i8: 105
+    i9: 91
+    i10: 72
+    i11: 130
+    i12: 65
+    i13: 122
+    i14: 198
+    i15: 104
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114989372852919388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612118132881404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21366ba3adac72043b3dca3ec89a3b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 114760594642657154, guid: 1b66d560fd68b794089d5bc41265996f,
+    type: 2}
+  cardBackPrefab: {fileID: 224377642089585308, guid: 9937e94996925a34ab85c41cfdc38da2,
+    type: 2}
+  optionalTaskPrefab: {fileID: 1703648410535738, guid: 6c7eae79406dab24e89521b19ac1d402,
+    type: 2}
+  mandatoryTaskPrefab: {fileID: 1502181181942320, guid: 43d83a4736086f64f84a696d01203297,
+    type: 2}
+  selectableIDPrefab: {fileID: 114035822802505296, guid: 4c12c2d907b06eb42b93d20b46555832,
+    type: 2}
